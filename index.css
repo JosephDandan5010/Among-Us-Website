@@ -1,0 +1,71 @@
+*, *::after, *::before {
+    margin: 0;
+  }
+
+  body {
+    text-align: center;
+    font-family: "Short Stack", cursive;
+  }
+
+  header, footer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #head-title, #baby-crewmate {
+      font-size:2.1rem;
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      letter-spacing: 5px;
+      position: absolute;
+      width: 420px;
+  }
+
+  .main-section {
+      width: 100vw;
+      background-color: #282e34;
+      color: #ddd;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 70px 100px 70px 100px;
+      box-sizing: border-box;
+      line-height: 1.6;
+  }
+
+  .game-title {
+      font-size: 1.7rem;
+      padding-bottom: 25px;
+  }
+
+  .game-text {
+      font-size: 1.1rem;
+  }
+
+  .main__imageOne, .main__imageTwo {
+      height: 440px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.1rem;
+      letter-spacing: 3px;
+      color: white;
+  }
+
+  .pimg1, .main__imageOne, .main__imageTwo, .footer__imageOne
+  {
+      position: relative;
+      opacity: 0.70;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  
